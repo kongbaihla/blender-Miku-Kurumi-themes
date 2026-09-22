@@ -1,6 +1,5 @@
 # Blender 主题 × 4（时崎狂三 / 初音未来）
 
-配色取自 `C:\Users\kb\Pictures\时崎狂三.png` 与 `E:\下载\初音未来.jpeg` 的实际像素。
 IntelliJ IDEA 版本是独立仓库 `idea-anime-themes`（本机与 `../idea_themes/` 并列）。
 两边共用同一套角色色值：本主题文本编辑器的
 **8 个语法高亮属性与 IDEA 配色方案逐字节一致**——这是校验脚本逐条比对出来的，不是声称。
