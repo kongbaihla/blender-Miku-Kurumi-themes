@@ -24,6 +24,21 @@ Blender 没有独立的「关键字」属性：Python 关键字落在 `syntax_re
 | `dist/preview_*.png` | — | 四套完整界面模拟图（视口、大纲、属性、文本编辑器、时间轴） |
 | `dist/*.xml.probe.json` | — | 校验清单，`verify_theme.py` 用它回读每个颜色 |
 
+## 预览
+
+四套主题的完整界面模拟——3D 视口、大纲、属性面板、文本编辑器、时间轴都在主题范围内：
+
+| | |
+|---|---|
+| **Kurumi Tokisaki Light**<br><img src="dist/preview_Kurumi_Tokisaki_Light.png" width="430" alt="Kurumi Tokisaki Light 界面"> | **Kurumi Tokisaki Dark**<br><img src="dist/preview_Kurumi_Tokisaki_Dark.png" width="430" alt="Kurumi Tokisaki Dark 界面"> |
+| **Hatsune Miku Light**<br><img src="dist/preview_Hatsune_Miku_Light.png" width="430" alt="Hatsune Miku Light 界面"> | **Hatsune Miku Dark**<br><img src="dist/preview_Hatsune_Miku_Dark.png" width="430" alt="Hatsune Miku Dark 界面"> |
+
+四套叠放（`dist/preview_all.png`）：
+
+<img src="dist/preview_all.png" width="620" alt="四套主题预览">
+
+模拟图里的颜色是从生成的 XML 里**回读**出来的，不是另抄一份色表，所以预览与主题文件一致。
+
 ## 安装
 
 **方式 A：扩展包（推荐，Blender 4.2+）**
