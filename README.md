@@ -41,26 +41,10 @@ Blender 没有独立的「关键字」属性：Python 关键字落在 `syntax_re
 
 ## 安装
 
-**方式 A：扩展包（推荐，Blender 4.2+）**
+在"**偏好设置**"左侧栏选择"**主题**"，在右侧上方单击"**安装**"添加主题，选择一个XML格式单击"**安装主题**"即可。
 
-`dist/*.zip` 是标准 Blender 扩展包（`blender_manifest.toml` + 主题 XML），和你给的
-`theme-shadow`、`theme-dark-purple-green` 是同一格式：
+<img width="1263" height="872" alt="image" src="https://github.com/user-attachments/assets/1992911e-1d0e-461d-8239-8213f3af6468" />
 
-> `Edit → Preferences → Get Extensions → 右上角 ▾ → Install from Disk…` 选 zip，
-> 或者直接把 zip 拖进 Blender 窗口。装完到 `Preferences → Themes` 里选。
-
-**方式 B：直接放文件**
-
-把 `dist/*.xml` 复制到 `scripts/presets/interface_theme/` 下，重启后到
-`Preferences → Themes` 选。用户目录（无需管理员权限）：
-
-```
-%APPDATA%\Blender Foundation\Blender\5.2\scripts\presets\interface_theme\
-%APPDATA%\Blender Foundation\Blender\4.5\scripts\presets\interface_theme\
-```
-
-装之前想看效果：`dist/preview_*.png` 是四套完整界面模拟图（视口、大纲、属性面板、
-文本编辑器、时间轴），`dist/preview_all.png` 是汇总。
 
 ## 兼容范围
 
